@@ -18,7 +18,20 @@ Nicollette Ochola
 
 ## BDD
 - Input: This application allows users to input a quote, add their opinions by the means of likes and dislikes.
-- Output: This application relays to the user the quote and allows the user to toggle the detais which includes the number of likes and dislikes and the author as well as the day the quote was posted. 
+- Output: This application relays to the user the quote and allows the user to toggle the detais which includes the number of likes and dislikes and the author as well as the day the quote was posted.
+
+<img src = "./src/assets/quotes.png">
+
+## Development 
+Lets collaborate. If you notice any bug or want to develop this web app further;
+1. Fork this repositiry
+2. Create a new branch `git checkout <branch-name>`
+3. Add the neccesary changes
+4. Commit and pusg the changes
+5. Create a pull request
+
+## Live Link
+
 
 ## Code scaffolding
 
@@ -39,3 +52,10 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Contacts
+- nicoleochola@gmail.com
+- +254 726868063
+
+## Copyright 
+Copyright (c)
