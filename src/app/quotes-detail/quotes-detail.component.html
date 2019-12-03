@@ -1,8 +1,10 @@
 <p>
   {{ quotes.description}}
 </p>
-<span><button (click)=likebuttonclick() class="btn btn-outline-primary">like</button></span>
-<span>{{numberoflikes}}</span>
-<span><button (click)=dislikebuttonclick() class="btn btn-outline-warning">dislike</button></span>
-<span>{{numberofdislikes}}</span><br><br>
-<button (click)= 'quotesDelete(true)' class="btn btn-outline-danger">Delete Quote</button>
+  <div class="buttons">
+  <span><button (click)=likebuttonclick() class="btn btn-outline-primary"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></button></span>
+  <span>&nbsp;{{numberoflikes}}</span> <br><br>
+  <span><button (click)=dislikebuttonclick() class="btn btn-outline-warning"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i></button></span>
+  <span>{{numberofdislikes}}</span><br><br>
+  <button (click)= 'quotesDelete(true)' class="btn btn-outline-danger"><i class="fa fa-trash-o" aria-hidden="true"></i></button>
+</div>
