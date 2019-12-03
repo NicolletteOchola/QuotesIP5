@@ -1,11 +1,10 @@
 @import "~bootstrap/dist/css/bootstrap.css";
  body {
-  font-family: 'Dancing Script', cursive;
   font-family: 'Satisfy', cursive;
-  background-image: url("https://bit.ly/2Lf4EIL");
-  background-size: cover;
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://bit.ly/2Lf4EIL");
   background-repeat: no-repeat;
   color: white;
+  padding-bottom: 206px;
  }
  h1 {
    text-align: center;
