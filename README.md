@@ -16,6 +16,9 @@ Nicollette Ochola
 - Run `ng serve` command.
 - On your browser, navigate to http://localhost:4200/ 
 
+## BDD
+- Input: This application allows users to input a quote, add their opinions by the means of likes and dislikes.
+- Output: This application relays to the user the quote and allows the user to toggle the detais which includes the number of likes and dislikes and the author as well as the day the quote was posted. 
 
 ## Code scaffolding
 
