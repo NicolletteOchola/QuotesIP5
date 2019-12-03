@@ -8,7 +8,13 @@ Nicollette Ochola
 
 ## TECHNOLOGIES USED
 - Angular CLI version 8.3.19.
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.19.
+- HTML & CSS (Bootstrap)
+
+## Setup Instructions
+- Clone this repository in your local machine
+- Navigate to the root folder via your terminal
+- Run `ng serve` command.
+- On your browser, navigate to http://localhost:4200/ 
 
 
 ## Code scaffolding
