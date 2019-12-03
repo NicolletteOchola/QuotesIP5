@@ -23,10 +23,10 @@ export class QuotesComponent implements OnInit {
 
   constructor() {
     this.quotes=[
-     new Quotes (1,'Ellen White','The Gospel is a simplifier of life.', new Date(1997,6)),
-     new Quotes (2,'Winston Churchill','Continuous effort - not strength - is the key to unlocking our potential.',new Date (2000,2)),
-     new Quotes (3,'Abraham Lincoln','Always bear in mind that your own resolution to succeed is more important than any one thing.',new Date (2010,10)),
-     new Quotes (4,'Albert Einstein','A happy man is too satisfied with the present to dwell too much on the future.', new Date (1995,2)),
+     new Quotes (1,'~Ellen White','The Gospel is a simplifier of life.', new Date(1997,6)),
+     new Quotes (2,'~Winston Churchill','Continuous effort - not strength - is the key to unlocking our potential.',new Date (2000,2)),
+     new Quotes (3,'~Abraham Lincoln','Always bear in mind that your own resolution to succeed is more important than any one thing.',new Date (2010,10)),
+     new Quotes (4,'~Albert Einstein','A happy man is too satisfied with the present to dwell too much on the future.', new Date (1995,2)),
     ];
    }
     addNewQuotes(quotes){
