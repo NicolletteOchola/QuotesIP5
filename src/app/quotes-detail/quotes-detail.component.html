@@ -1,8 +1,8 @@
 <p>
   {{ quotes.description}}
 </p>
-<span><button (click)=likebuttonclick()>like</button></span>
+<span><button (click)=likebuttonclick() class="btn btn-outline-primary">like</button></span>
 <span>{{numberoflikes}}</span>
-<span><button (click)=dislikebuttonclick()>dislike</button></span>
+<span><button (click)=dislikebuttonclick() class="btn btn-outline-warning">dislike</button></span>
 <span>{{numberofdislikes}}</span><br><br>
 <button (click)= 'quotesDelete(true)' class="btn btn-outline-danger">Delete Quote</button>
