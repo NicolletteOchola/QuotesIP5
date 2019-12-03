@@ -1,10 +1,15 @@
-# Quotes
+# QUOTES
 
+This is a web application that allows users to view, add and delete quotes. Users also have the ability to like (upvote) and dislike (downvote) quotes posted on the application.
+
+## AUTHOR
+
+Nicollette Ochola
+
+## TECHNOLOGIES USED
+- Angular CLI version 8.3.19.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.19.
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
