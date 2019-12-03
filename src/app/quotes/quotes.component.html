@@ -7,7 +7,7 @@
       <div *ngFor='let quotes of quotes;let i = index'>
         <div>
           <h4 id={{i}} appStrikethrough>{{quotes.name}} posted {{quotes.completeDate|timeAgo}}</h4>
-          <button (click)='toggleDetails(i)' class="btn btn-primary">View Quote</button>
+          <button (click)='toggleDetails(i)' class="btn btn-primary">Details</button>
         </div>
 
         <div *ngIf='quotes.showDescription'>

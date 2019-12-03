@@ -1,5 +1,9 @@
 @import "~bootstrap/dist/css/bootstrap.css";
  body {
-  font-family: 'Lobster', cursive;
   font-family: 'Dancing Script', cursive;
+  font-family: 'Satisfy', cursive;
  }
+ h1 {
+   text-align: center;
+ }
+
