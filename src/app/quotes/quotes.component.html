@@ -1,0 +1,9 @@
+<h1>My Quotes</h1>
+<hr>
+<ul>
+  <div *ngFor='let quotes of quotes;let i = index'>
+    <li>{{quotes.name}} posted {{ quotes.completeDate|date }}</li>
+    <button (click)='toggleDetails(i)'>View Quote</button>
+    <app-quotes-detail *ngIf='quotes.showDescription' [quotes]='quotes' (isComplete) = 'deleteQuotes ($event, i)'></app-quotes-detail>
+  </div>
+</ul>
