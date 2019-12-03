@@ -6,7 +6,7 @@
     <div class="col-md-6">
       <div *ngFor='let quotes of quotes;let i = index'>
         <div>
-          <h4 id={{i}} appStrikethrough>{{quotes.name}} posted {{quotes.completeDate|date}}</h4>
+          <h4 id={{i}} appStrikethrough>{{quotes.name}} posted {{quotes.completeDate|timeAgo}}</h4>
           <button (click)='toggleDetails(i)' class="btn btn-primary">View Quote</button>
         </div>
 
@@ -14,6 +14,9 @@
           <app-quotes-detail  [quotes]='quotes' (isComplete) = 'deleteQuotes($event,i)'></app-quotes-detail>
         </div>
       </div>
+    </div>
+    <div class="col-md-6">
+      <app-quotes-form (addQuotes)="addNewQuotes($event)"></app-quotes-form>
     </div>
   </div>
 </div>

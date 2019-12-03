@@ -29,7 +29,12 @@ export class QuotesComponent implements OnInit {
      new Quotes (4,'Albert Einstein','A happy man is too satisfied with the present to dwell too much on the future.', new Date (1995,2)),
     ];
    }
-
+    addNewQuotes(quotes){
+    let quotesLength = this.quotes.length;
+    quotes.id = quotesLength+1;
+    quotes.completeDate = new Date(quotes.completeDate)
+    this.quotes.push(quotes)
+  }
   ngOnInit() {
   }
 
