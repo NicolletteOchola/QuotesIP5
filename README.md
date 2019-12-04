@@ -19,6 +19,7 @@ Nicollette Ochola
 ## BDD
 - Input: This application allows users to input a quote, add their opinions by the means of likes and dislikes.
 - Output: This application relays to the user the quote and allows the user to toggle the detais which includes the number of likes and dislikes and the author as well as the day the quote was posted.
+- The user is allowed to delete a quote after adding it on the web application.
 
 <img src = "./src/assets/quotes.png">
 
